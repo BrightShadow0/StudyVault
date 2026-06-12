@@ -1,3 +1,5 @@
+//Predict output given following code
+
 #include <stdio.h>
 int main(){
     printf("nn\n\nn\n");
