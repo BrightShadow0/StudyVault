@@ -1,0 +1,1 @@
+//Take float input and print factional part of real number
