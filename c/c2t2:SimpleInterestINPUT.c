@@ -8,6 +8,6 @@ int main(){
     scanf("%f",&r);
     printf("Enter duration (in years): ");
     scanf("%f",&t);
-si=p*r*t/100;
+    si=p*r*t/100;
 printf("Simple interest for data is: %f Rupees\n",si);
 }
