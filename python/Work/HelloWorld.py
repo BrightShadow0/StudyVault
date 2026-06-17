@@ -8,5 +8,3 @@ this_is_a_long_line_of_code = 'This is a long line of code that demonstrates how
 print(this_is_a_long_line_of_code)
 # This is a comment in Python. Comments are used to explain the code and are ignored by the interpreter.
 # You can write comments on a single line or use multi-line comments with triple quotes.
-repeated_message = 'Python is great!\n'* 4
-print(repeated_message)
