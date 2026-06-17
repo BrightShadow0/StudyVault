@@ -1,13 +1,15 @@
 #include <stdio.h>
-int main(){
-printf("\nLeap year verifier tool\n\n");
-printf("Enter a year to proceed\n");
-int year;
-scanf("%d",&year);
-    if(year%4==0){
-        printf("Leap year");
+int main() {
+    printf("\n\n\nLeap year verifier tool\n\n");
+    printf("Enter a year to proceed\n");
+    int year;
+    char word[12] = "narcississm";
+    scanf("%d", &year);
+    if (year % 4 == 0) {
+        printf("Leap year\n\n");
+    } 
+    else {
+        printf("Not a leap year\n\n");
     }
-    else{printf("Not a leap year");
-    }
-return 0;
+    return 0;
 }
