@@ -14,7 +14,7 @@ if(n%5==0||n%3==0){
     }
 }
 else{
-        printf("Not divisible by 5, 3, 15");
+    printf("Not divisible by 5, 3, 15");
 }
     return 0;
 }
