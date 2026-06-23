@@ -10,8 +10,10 @@ if(a>c){
     printf("%d is greatest",a);
 }
 else{
-       printf("%d is greatest",c);
+    printf("%d is greatest",c);
 }
 }
+else{ printf("%d is greatest",b);}
+
     return 0;
 }
