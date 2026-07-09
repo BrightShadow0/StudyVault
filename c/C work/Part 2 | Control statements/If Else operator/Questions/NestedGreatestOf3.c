@@ -24,6 +24,5 @@ if(c>a){
     printf("%d is greatest",c);
     if(c<b)
     printf("%d is greatest",b);}
-
-    return 0;
+return 0;
 }
