@@ -14,15 +14,11 @@ if(a>b){
     printf("%d is greatest",c);
     if(a>c)
     printf("%d is greatest",a);}
-if(b>c){
-    if(a>b)
-    printf("%d is greatest",a);
-    if(b>a)
-    printf("%d is greatest",b);}
-if(c>a){
-    if(c>b)
-    printf("%d is greatest",c);
-    if(c<b)
-    printf("%d is greatest",b);}
+else{
+    if(b>c)
+    printf("%d is greatest",b);
+    else
+    printf("%d is greatest",c);}
+
 return 0;
 }
