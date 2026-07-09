@@ -7,10 +7,10 @@ scanf("%d",&n);
     if(n>80){
         printf("A grade");
     }
-    if(n>60){
+    else if(n>60){
         printf("B grade");
     }
-    if(n>40){
+    else if(n>40){
         printf("C grade");
     }
     else{
