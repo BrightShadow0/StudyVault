@@ -27,5 +27,5 @@ if(c>a){ //main condition 3
     if(c<b)
     printf("%d is greatest",b);}
 
-    return 0; //idk
+    return 0; //idk yet
 }
