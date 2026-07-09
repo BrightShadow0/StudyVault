@@ -2,14 +2,13 @@
 #include <stdio.h>
 int main(){
 int a,b,c;
-printf("\nGreatest of 3 finder\n\n");
 //Entries and inputs now
-printf("Enter first number: ");
-scanf("%d",&a);
+printf("Enter first number: "); 
+scanf("%d",&a); //entries
 printf("Enter second number: ");
-scanf("%d",&b);
+scanf("%d",&b); //entries
 printf("Enter third number: ");
-scanf("%d",&c);
+scanf("%d",&c); //entries
 
 if(a>b){ //main condition 1
     if(c>a)
@@ -27,5 +26,5 @@ if(c>a){ //main condition 3
     if(c<b)
     printf("%d is greatest",b);}
 
-    return 0; //idk yet
+    return 0;
 }
