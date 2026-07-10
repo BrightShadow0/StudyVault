@@ -1,7 +1,7 @@
 //write a code to check if entered coordinate lies on X axis or Y axis or the origin viz. (0,0)
 #include <stdio.h>
 int main(){
-double x,y;
+int x,y;
 printf("Enter coordinate: ");
 scanf("%d %d",&x,&y);
 
