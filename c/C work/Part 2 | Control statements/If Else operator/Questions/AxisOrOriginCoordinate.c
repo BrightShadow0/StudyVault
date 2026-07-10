@@ -5,13 +5,13 @@ int x,y;
 printf("Enter coordinate: ");
 scanf("%d %d",&x,&y);
 
-if(x==0)
-printf("Coordinate lies on Y-axis");
-else if(y==0)
-printf("coordinate lies on X-axis");
-else if(x==0 && y==0)
-printf("coordinate lies on Origin");
+if (x == 0 && y == 0)
+    printf("Coordinate lies on Origin");
+else if (x == 0)
+    printf("Coordinate lies on Y-axis");
+else if (y == 0)
+    printf("Coordinate lies on X-axis");
 else
-printf("coordinate lies on neither axes, nor on the origin");
+printf("coordinate does not lie on the axes nor the origin");
 return 0;
 }
