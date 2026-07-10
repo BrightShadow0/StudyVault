@@ -12,6 +12,6 @@ else if (x == 0)
 else if (y == 0)
     printf("Coordinate lies on X-axis");
 else
-printf("coordinate does not lie on the axes nor the origin");
+printf("coordinate does not lie on the axes");
 return 0;
 }
