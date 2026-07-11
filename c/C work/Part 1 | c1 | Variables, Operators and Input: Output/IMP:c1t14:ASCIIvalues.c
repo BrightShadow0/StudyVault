@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+    char ch = 'x';
+    scanf("%c",&ch);
+    printf("%d",ch);
+}
