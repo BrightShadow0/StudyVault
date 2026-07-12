@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-int i = -1;
+int i = 1;
 while(i<=10){
-    printf("%d Hello World\n",i);
+    printf("Hello World\n");
     i++;
 }
 return 0;
