@@ -1,4 +1,3 @@
-//Take user input to print "Hello" n times
 #include <stdio.h>
 int main(){
 int n;
