@@ -3,7 +3,7 @@
 int main(){
 int n,count;
 printf("Enter a number to check number of digits: ");
-scanf("%",&n);
+scanf("%d",&n);
 count = 0;
 while(n!=0){
     n = n/10;
