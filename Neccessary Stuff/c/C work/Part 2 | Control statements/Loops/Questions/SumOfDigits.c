@@ -8,9 +8,9 @@ sum = 0;
 //concept: any number divided by 10 gives last digit as remainder
 //143954
 while(n!=0){
-ld = n%10; //(1) 4 ; (2) 5
-sum = sum + ld; //(1) 0 + 4 = 4; (2) 4 + 5 = 9;
-n = n/10; //(1) from 143954 to 14395 then loop;
+ld = n%10;
+sum = sum + ld;
+n = n/10;
 }
-
+printf("Sum of digits is %d",sum);
 } 
