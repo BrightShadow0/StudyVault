@@ -1,4 +1,4 @@
-//WAP to count digits of user input integer
+//WAP to count digits of integer input
 #include <stdio.h>
 int main(){
 int n;
@@ -7,7 +7,8 @@ scanf("%d",&n);
 int count = 0;
 while(n!=0){
     n = n/10;
-    count = count + 1;
+    count++;
+
 }
-printf("%d Digit(s) ",count);
+printf("No. of digits: %d",count);
 }
