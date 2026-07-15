@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     while(n!=0){
 lastdigit = n%10;
-printf("%d',lastdigit");
+printf("%d",lastdigit);
 n = n/10;
 }
     return 0;
