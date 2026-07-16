@@ -1,8 +1,8 @@
-//WAP to calculate sum digits of integer and also print its reverse
+//WAP to print sum of given number and its reverse
 #include <stdio.h>
 int main(){
     int n,ld;
-    printf("\nEnter a number to find its reverse: ");
+    printf("\nEnter a number: ");
     scanf("%d",&n);
     int a = n;
     int r = 0;
