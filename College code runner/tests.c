@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
-int price;
+double price;
 printf("Enter price of item: ");
-scanf("%d",&price);
-
+scanf("%lf",&price);
+price = price + (price * 5)/100;
+printf("Price of item after taxation (5%): %lf",price);
+return 0;
 }
