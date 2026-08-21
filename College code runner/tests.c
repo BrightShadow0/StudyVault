@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main(){
-int litre, price;
-printf("Enter litres of water consumed: ");
-scanf("%d",&litre);
-
-if(litre<=100);{
-price = 2 * litre;}
-
-else if(litre<=200){
-price = (2 * litre) + (3 * (litre-100);}
+int n, i, sq;
+printf("Enter number of square terms required: ");
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+sq = i * i;
+printf("%d, ",sq);
+}
+return 0;
 }
