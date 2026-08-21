@@ -1,11 +1,15 @@
 #include <stdio.h>
 int main(){
-int n, i, sq;
-printf("Enter number of square terms required: ");
+int t1=0,t2=1,t3,i=0,n;
+printf("Enter number of terms of Fibonacci series required: ");
 scanf("%d",&n);
-for(i=1;i<=n;i++){
-sq = i * i;
-printf("%d, ",sq);
+printf("%d",t1);
+while(i<n){
+t3 = t1 + t2;
+t1 = t2;
+t2=t3;
+printf(", %d",t2);
+i++;
 }
 return 0;
 }
