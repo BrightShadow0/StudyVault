@@ -1,9 +1,12 @@
 #include <stdio.h>
 int main(){
-double price;
-printf("Enter price of item: ");
-scanf("%lf",&price);
-price = price + (price * 5)/100;
-printf("Price of item after taxation (5%): %lf",price);
-return 0;
+int litre, price;
+printf("Enter litres of water consumed: ");
+scanf("%d",&litre);
+
+if(litre<=100);{
+price = 2 * litre;}
+
+else if(litre<=200){
+price = (2 * litre) + (3 * (litre-100);}
 }
