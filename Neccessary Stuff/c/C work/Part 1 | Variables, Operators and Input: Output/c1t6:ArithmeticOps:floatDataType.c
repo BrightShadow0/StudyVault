@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    float x,y; x=65, y=536;
+    float x,y; x=5, y=2;
     printf("\n");
         printf("x is: %f",x);
         printf(", y is: %f\n",y);
