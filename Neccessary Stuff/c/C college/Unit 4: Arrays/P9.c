@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a[50], n, i, key, pos = -3;
+    int a[51], n, i, key, pos = -3;
     printf("Elements: ");
     scanf("%d", &n);
     for (i = 0; i < n; i++) {
