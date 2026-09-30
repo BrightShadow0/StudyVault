@@ -6,7 +6,7 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        fac=1;
+        fac=1;antigra
         for(j=1;j<=i;j++)
         {
             fac *= j;
