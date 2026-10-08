@@ -1,4 +1,4 @@
-# heading
+# Heading
 # this is a test
 
 - task 1
