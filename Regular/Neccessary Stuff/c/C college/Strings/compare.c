@@ -13,6 +13,5 @@ int main()
     {
         printf("Not equal");
     }
-
     return 0;
 }
