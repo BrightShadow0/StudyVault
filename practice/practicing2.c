@@ -1,31 +1,19 @@
-
 #include <stdio.h>
-
-void display(int start, int end, int choice) {
-    if (start > end)
+void even(int n, int end)
+{
+    if (n > end)
         return;
 
-    if (start % 2 == choice)
-        printf("%d ", start);
+    if (n % 2 == 0)
+        printf("%d ", n);
 
-    display(start + 1, end, choice);
+    even(n + 1, end);
 }
-
-int main() {
-    int start, end, choice;
-
-    printf("Enter the range: ");
+int main()
+{
+    int start, end;
+    printf("Enter range: ");
     scanf("%d %d", &start, &end);
-
-    printf("Enter 0 for even or 1 for odd: ");
-    scanf("%d", &choice);
-
-    if (start > end || (choice != 0 && choice != 1)) {
-        printf("Invalid input");
-        return 0;
-    }
-
-    display(start, end, choice);
-
+    even(start, end);
     return 0;
 }
