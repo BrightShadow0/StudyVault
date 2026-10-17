@@ -1,25 +1,27 @@
 #include <stdio.h>
-int sumD(int n) {
-    int sum = 0;
-    while (n != 0) {
-        sum += n % 10;
-        n /= 10;
+
+int main()
+{
+    int a, b;
+    char op;
+
+    printf("Simple calculator\n\n");
+    printf("Enter two numbers and operation (eg. 2 + 3): ");
+    scanf("%d %s %d", &a, &op, &b);
+
+    switch(op)
+    {
+        case '+': printf("%d", a + b); break;
+        case '-': printf("%d", a - b); break;
+        case 'x': printf("%d", a * b); break;
+        case '/': printf("%d", a / b); break;
+            if (b == 0)
+                printf("Division by zero not possible");
+            else
+                printf("%d", a / b);
+            break;
+        default: printf("Invalid input");
     }
-    return sum;
-}
-int reverse(int n) {
-    int rev = 0;
-    while (n != 0) {
-        rev = rev * 10 + n % 10;
-        n /= 10;
-    }
-    return rev;
-}
-int main() {
-    int n;
-    printf("Enter an integer: ");
-    scanf("%d", &n);
-    printf("Sum of digits = %d\n", sumD(n));
-    printf("Reverse = %d\n", reverse(n));
+
     return 0;
 }
