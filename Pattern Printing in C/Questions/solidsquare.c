@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
-    int side;
+    int n;
     printf("Enter side length: ");
-    scanf("%d",&side);
-    for(int i=1;i<=side;i++){
-        for(int i=1;i<=side;i++){
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int i=1;i<=n;i++){
             printf("* ");}
         printf("\n");
     }
