@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int n,finder=0;
-    printf("Enter number of rows: ");
+    printf("Enter odd number of rows: ");
     scanf("%d",&n);
     finder = ((n/2)+1);
     for(int i=1;i<=n;i++)
