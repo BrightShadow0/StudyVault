@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-    int n,i,j,num;
+    int n,m;
     printf("Enter number of rows: ");
+    scanf("%d",&m);
+    printf("Enter number of columns: ");
     scanf("%d",&n);
-    printf("Enter number of stars: ");
-    scanf("%d",&num);
-    for(int i=1;i<=n;i++){
-        for (j=1;j<=num;j++){
+    for(int i=1;i<=m;i++){
+        for (int j=1;j<=n;j++){
             printf("* ");        
         }
         printf("\n");
