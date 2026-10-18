@@ -4,9 +4,8 @@ int main(){
     printf("Enter side length: ");
     scanf("%d",&side);
     for(int i=1;i<=side;i++){
-        for(int j=1;j<=side;j++){
-            printf("* ");
-        }
+        for(int i=1;i<=side;i++){
+            printf("* ");}
         printf("\n");
     }
     return 0;
