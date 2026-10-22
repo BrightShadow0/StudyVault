@@ -9,7 +9,7 @@ for(i=0;i<10;i++){
         OddSum+=a[i];
     }
 }
-printf("Difference between even and odd index elements' sum: %d",EvenSum-OddSum);
+printf("Difference between even and odd index elements' sum: %d\n",EvenSum-OddSum);
 
 return 0;
 }
