@@ -1,10 +1,22 @@
-/*Decomposition refers to breaking down a large problem into smaller and simpler components*/
-/*Ex. Student details is a broad field. We can break it down into smaller components such as name, roll number, semester and year.*/
-
-/*Abstraction refers to hiding unneccesary details and display only essential details to the user*/
-/*Ex. A person withdrawing money from an ATM only needs to enter the required details and does not need to know about its backend operations.*/
 #include <stdio.h>
-int main(){
-    
+
+int main()
+{
+    float tem;
+
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &tem);
+
+    if(tem >= 40)
+        printf("Very Hot");
+    else if(tem >= 30)
+        printf("Hot");
+    else if(tem >= 20)
+        printf("Warm");
+    else if(tem >= 10)
+        printf("Cool");
+    else
+        printf("Cold");
+
     return 0;
 }
