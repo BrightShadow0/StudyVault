@@ -14,6 +14,6 @@ scanf("%d",&n);
         printf("C grade");
     }
     else{
-        printf("D grade");
+        printf("F grade");
     }
 }
